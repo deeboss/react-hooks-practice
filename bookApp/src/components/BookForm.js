@@ -5,7 +5,7 @@ const BookForm = () => {
   const { addBook } = useContext(BookContext);
 
   const [book, setBook] = useState({
-    title: '',
+    title: 'Test',
     author: ''
   });
 

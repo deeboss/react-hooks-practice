@@ -17,6 +17,8 @@ const BookContextProvider = ({ children }) => {
     }
   ]);
 
+  console.log(books);
+
   const addBook = book => {
     setBooks([...books, { ...book, id: uniqid() }]);
   };
